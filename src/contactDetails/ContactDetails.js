@@ -31,8 +31,8 @@ const ContactDetailsData = [
 
 const ContactIconWithText = ({details}) => {
     return (
-        <a href={details.refUrl} target="_blank" className='Contact-icon-with-text-wrapper'>
-            <img className='Contact-image' src={details.icon}/>
+        <a href={details.refUrl} target="_blank" rel="noreferrer" className='Contact-icon-with-text-wrapper'>
+            <img className='Contact-image' src={details.icon} alt={'icon'}/>
             {details.text}
         </a>
     )

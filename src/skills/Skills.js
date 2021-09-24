@@ -33,7 +33,6 @@ const SkillsData = [
     {
         name: 'CSS'
     },
-    ,
     {
         name: 'Styled-Components'
     },
