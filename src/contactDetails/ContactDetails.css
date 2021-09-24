@@ -1,0 +1,27 @@
+.Contact-details-wrapper{
+    width: 80vw;
+    max-width: 800px;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Contact-details-wrapper-mobile{
+    flex-direction: column;
+}
+
+.Contact-icon-with-text-wrapper{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: var(--theme-page-text);
+}
+
+.Contact-image{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 0.5rem;
+}

@@ -1,0 +1,24 @@
+.Resume-container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Resume-href{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #0c0c0c;
+    border: 1px solid #333;
+    background-color: orange;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Download-image{
+    width: 1.7rem;
+    height: 1.7rem;
+    padding-right: 0.5rem;
+}

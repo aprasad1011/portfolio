@@ -1,0 +1,21 @@
+.TitleContainer{
+    text-align: center;
+    width: 80vw;
+    max-width: 800px;
+    overflow: visible;
+    margin: 0 1rem;
+}
+
+.Title {
+    font-size: 4rem;
+    margin: 0;
+    line-height: 1.15;
+}
+
+.SubTitle{
+    color: #9a9a9a;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 0.2rem;
+    
+}

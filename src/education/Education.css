@@ -1,0 +1,35 @@
+.Education-details-wrapper{
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid var(--theme-box-background);
+    background-color: var(--theme-box-background);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Education-details-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Organization-title{
+    flex: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.Duration{
+    font-size: 0.7rem;
+    font-style: italic;
+    align-items: flex-end;
+}
+.Institute{
+    font-size: 0.7rem;
+    font-style: italic;
+    align-items: flex-end;
+}
