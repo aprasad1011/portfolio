@@ -47,6 +47,15 @@ const SkillsData = [
     },
     {
         name: 'Jenkins'
+    },
+    {
+        name: 'AWS'
+    },
+    {
+        name: 'Docker'
+    },
+    {
+        name: 'Kubernetes'
     }
 ];
 

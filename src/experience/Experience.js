@@ -6,13 +6,15 @@ const ExperienceData = [
     {
         organization: 'Credit Suisse',
         duration: {
-            from : 'May - 2018',
-            to : 'Preset'
+            from : 'April - 2018',
+            to : 'Present'
         },
         role: 'Full Stack Developer',
         responsibilities : [
-            'Reduce manual efforts upto 70% by developing new workflows for front office users.',
-             'Minimized portfolio blocking upto 90% by designing and developing end to end workflow functionality which result in minimizing third party tool dependancy.'
+            'Developed and managed several micro-services like dashboard portal, task management system, reporting and sentiment analysis.',
+            'Contributed in complete software development lifecycle with full ownership of tasks.',
+            'Minimized portfolio blocking up to 90% by designing and developing end to end workflow functionality which also resulted in minimizing third party tool dependency.',
+            'Provided low and high-level design inputs like usage of design patterns, refactoring code base, best coding practices and technological solutions.'
         ],
         location: 'Pune, IN'
     },
@@ -20,12 +22,15 @@ const ExperienceData = [
         organization: 'Sears Holding',
         duration: {
             from : 'Dec - 2017',
-            to : 'Apr - 2018'
+            to : 'Jan - 2018'
         },
         role: 'Software Developer',
         responsibilities : [
             'Enhance existing application by building new feature as per given requirement.', 
-            'Setup standard practices to enhance code quality and test coverage in existing applications.'
+            'Setup standard practices to enhance code quality and test coverage in existing applications.',
+            'Worked on enhancement of existing application by building new requirements using Spring Boot, Hibernate, Jenkins and Maven.',
+            'Developed REST APIs, handled Database calls to store data in Oracle, ensured coverage by writing unit and integration test cases, configured environment-specific properties.',
+            'Implemented dispute cycle and rules using REST API, MVC Architecture and reduced API response time under one second.'
         ],
         location: 'Pune, IN'
     },
@@ -33,17 +38,18 @@ const ExperienceData = [
         organization: 'Syntel Private Limited',
         duration: {
             from : 'Aug - 2015',
-            to : 'Apr - 2018'
+            to : 'Dec - 2017'
         },
         role: 'Trainee Engineer',
         responsibilities : [
-            'Implemented access control module to prevent unauthorized access to system dynamically based on business requirements.',
-             'Reduced human dependancy from 15 to 2 by developing TransitManagement System to manage company employee transit.'
+            'Worked on ACM (Access Control Module) system that is responsible to prevent unauthorized access to system dynamically based on business requirements.',
+            'Implemented Transit Management system to manage company employee transit which resulted in 80% reduction in human interference.',
+            'Technologies Used: Spring Boot, Spring Security, Jquery and Jenkins.'
         ],
         location: 'Pune, IN'
     },
 
-]
+];
 
 const ExperienceDetails = ({details}) => {
     const {organization, duration, role, responsibilities} = details;
